@@ -1,6 +1,8 @@
 
 #include <stdio.h>
 int main(){
-    // Resolver ejercicio 10
+    //Falla por desbordamiento del stack.
+//Se almacena en memoria automática si es local.
+//La solución sin usar malloc es declararlo como variable global. Las variables globales se almacenan en el segmento de datos#include <stdio.h>
     return 0;
 }
