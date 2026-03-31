@@ -1,6 +1,1 @@
-
-#include <stdio.h>
-int main(){
-    // Resolver ejercicio 11
-    return 0;
-}
+//Como varía de 8 en 8 bytes, es un double
