@@ -1,6 +1,15 @@
+/*
+&m[i][j] = base + ((i * columnas) + j) * sizeof(int)
+(2 * 5) + 4 = 10 + 4 = 14
 
-#include <stdio.h>
-int main(){
-    // Resolver ejercicio 12
-    return 0;
-}
+4000 + (14 * 4)
+4000 + 56
+= 4056
+
+(1 * 5) + 3 = 5 + 3 = 8
+
+4000 + (8 * 4)
+4000 + 32
+= 4032
+
+4056 - 4032 = 24 bytes */
